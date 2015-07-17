@@ -12,6 +12,11 @@ public class GeneralController {
 		return "aboutUs";
 	}
 	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home(){
+		return "home";
+	}
+	
 	@RequestMapping(value = "/team", method = RequestMethod.GET)
 	public String team(){
 		return "team";
