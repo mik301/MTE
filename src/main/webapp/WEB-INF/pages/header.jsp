@@ -14,7 +14,7 @@
 
 
 
-<title>MTE | Home</title>
+<title>WME | Home</title>
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 <!--Angular script for UI/DO Rendering-->
@@ -44,13 +44,13 @@
 	src="${pageContext.request.contextPath}/resources/js/jquery.address.js"></script>
 
 <link
-	href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.css"
+	href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.3/semantic.min.css"
 	rel="stylesheet">
+
 <link
-	href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.min.css"
+	href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.3/semantic.css
+"
 	rel="stylesheet">
-
-
 <!--  -->
 
 <link
@@ -58,9 +58,9 @@
 	rel="stylesheet">
 
 <script
-	src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.js"></script>
+	src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.3/semantic.js"></script>
 <script
-	src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.min.js"></script>
+	src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.3/semantic.min.js"></script>
 <script
 	src="${pageContext.request.contextPath}/resources/semantic/javascript/profile.js"></script>
 
@@ -74,6 +74,10 @@
 <!-- Responsive CSS Styles  -->
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/resources/css/responsive.css"
+	media="screen">
+
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/resources/css/mte.css"
 	media="screen">
 
 <!-- Css3 Transitions Styles  -->
@@ -139,7 +143,7 @@
 				<a class="navbar-toggle"> <span class="sr-only">Toggle
 						navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</a> 	<a class="logo" href="${pageContext.request.contextPath}/">MTE</a>
+				</a> 	<a class="logo" href="${pageContext.request.contextPath}/">WME</a>
 
 
 

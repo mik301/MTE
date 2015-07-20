@@ -281,7 +281,7 @@ input[type="submit"] {
 	margin-top: 30px;
 	height: 90%;
 	color: #fff;
-	background: linear-gradient(89deg, #30BDED 0px, #2085C5 100%);
+	background-image:url("../images/eddystone.jpg");
 	text-align: center;
 }
 
@@ -1118,134 +1118,101 @@ span.no_selection {
 /*------------------------------------------*/
 /*			 11 - Footer Styles
 /*------------------------------------------*/
-.full {
-	width: 100%;
+
+.footer-nav {
+  clear: both;
+  width: 100%;
+  font-family: 'Gotham_SSm_4r',Helvetica,Arial,sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 
-.gap {
-	height: 30px;
-	width: 100%;
-	clear: both;
-	display: block;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.footer {
-	clear: both;
-	height: auto;
-	padding-bottom: 20px;
-	position: relative;
-	width: 100%;
-	background: #414B5B none repeat scroll 0% 0%;
+ul li {
+  margin: 0;
+  padding: 0;
+}
+.footer-nav  .row {
+  max-width: 940px;
+  max-width: 58.75rem;
+  margin: 0 auto;
+  position: relative;
 }
 
-.footer p {
-	margin: 0;
+.footer-nav .second-nav {
+  display: inline;
+  padding: 5px 0px;
+  padding: 0.3125rem 0rem;
 }
 
-.footer img {
-	max-width: 100%;
+.footer-nav .bottom-section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
-.footer h3 {
-	color: #FFFFFF;
-	font-size: 12px;
-	font-weight: 600;
-	line-height: 10px;
-	padding: 40px 0 10px;
+.footer-nav .copyright {
+  display: inline;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  padding: 3px 20px 3px 0px;
+  padding: 0.1875rem 1.25rem 0.1875rem 0rem;
+  margin-left: -78px;
+  margin-left: -4.875rem;
 }
 
-.footer ul {
-	font-size: 13px;
-	list-style-type: none;
-	margin-left: 0;
-	padding-left: 0;
-	margin-top: -10px;
-	margin-left: 20px;
-	color: #FFFFFF;
+.footer-nav .top-nav li a {
+  font-family: 'Gotham_SSm_5r',Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #20c05c;
+  font-size: 12px;
+  
+  font-size: 0.85rem;
+  -webkit-transition: border 0.3s ease-in-out 0;
+  -moz-transition: border 0.3s ease-in-out 0;
+  -o-transition: border 0.3s ease-in-out 0;
+  transition: border 0.3s ease-in-out 0;
 }
 
-.footer ul li a {
-	padding: 0 0 0px 0;
-	display: block;
-	color: #FFFFFF;
+.footer-nav .languages {
+  display: inline;
+  border-left: 1px solid #696969;
+  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
-.footer a {
-	color: #0AAAE7;
+
+
+.footer-nav .top-nav {
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
-.supportLi h4 {
-	font-size: 20px;
-	font-weight: lighter;
-	line-height: normal;
-	margin-bottom: 0 !important;
-	padding-bottom: 0;
+.footer-nav .top-nav li {
+  display: inline;
+  position: relative;
+  margin: 0px 10px;
+  margin: 0rem 0.625rem;
 }
 
-.newsletter-box input#appendedInputButton {
-	background: #FFFFFF;
-	display: inline-block;
-	float: left;
-	height: 30px;
-	clear: both;
-	width: 100%;
+.footer-nav .second-nav li {
+  display: inline;
+  margin: 0px 5px;
+  margin: 0rem 0.3125rem;
 }
 
-.footer-bottom {
-	background: #E3E3E3;
-	border-top: 1px solid #DDDDDD;
-	padding-top: 10px;
-	padding-bottom: 10px;
+footer .language-picker.mobile {
+  display: none;
 }
-
-.footer-bottom p.pull-left {
-	padding-top: 6px;
-}
-
-.payments {
-	font-size: 1.5em;
-}
-
-.copyright-section {
-	padding: 15px 0;
-	font-size: 11px;
-	letter-spacing: 0.5px;
-	border-top: 1px solid rgba(255, 255, 255, .06);
-}
-
-.copyright-section p {
-	font-size: 11px;
-	text-transform: uppercase;
-}
-
-ul.footer-nav {
-	float: right;
-}
-
-ul.footer-nav li {
-	display: inline-block;
-	float: left;
-	margin-left: 15px;
-}
-
-ul.footer-nav li:first-child {
-	margin-left: 0;
-}
-
-ul.footer-nav li a {
-	display: inline-block;
-	text-transform: uppercase;
-	text-decoration: none;
-	transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-}
-
-ul.footer-nav li a:hover {
-	color: #fff;
-}
-
 /*
 14. Validation message
 Author : Mukul Rajput

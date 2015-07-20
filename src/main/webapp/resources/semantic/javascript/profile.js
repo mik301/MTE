@@ -22,4 +22,27 @@ $(document).ready(function() {
 		key : 'accepts-cookies',
 		value : true
 	});
+	$('.ui.dropdownCardreader')
+	  .dropdown()
+	;
+	$('.ui.dropdown')
+	  .dropdown()
+	;
+	$('.test.modal')
+	  .modal('attach events', '.test.button', 'show')
+	;
+	
+	
+	$('.selection.dropdown')
+	  .dropdown({
+	    onChange: function(value) {
+	    	$('.ui.modal')
+	    	  .modal({
+	    	    inverted: true
+	    	  })
+	    	  .modal('show')
+	    	;
+	    }
+	  })
+	;
 });

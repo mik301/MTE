@@ -335,6 +335,7 @@ fieldset,label {
 	text-align: left;
 	border-color: red;
 	border-bottom: 1px solid #bbe8f9;
+	border-left: 1px solid #bbe8f9;
 }
 
 .document-footer {

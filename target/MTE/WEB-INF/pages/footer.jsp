@@ -1,66 +1,46 @@
 <footer>
-	<div class="footer" id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4  col-md-4 col-sm-4 col-xs-6">
-					<ul>
+	<nav class="footer-nav">
+		<ul class="row top-nav">
+			<li><a href="/products/" class="click_tracking"
+				data-label="footer" data-action="expanded_products">Products</a></li>
+			<li><a href="/pricing/" class="click_tracking"
+				data-label="footer" data-action="expanded_pricing">Pricing</a></li>
+			<li><a href="https://www.evernote.com/market/"
+				class="click_tracking" data-label="footer"
+				data-action="expanded_market" lang="">Market</a></li>
+			<li><a href="https://appcenter.evernote.com"
+				class="click_tracking" data-label="footer"
+				data-action="expanded_appcenter">App Center</a></li>
+			<li><a href="/contact/support/" class="click_tracking"
+				data-label="footer" data-action="expanded_support">Support</a></li>
+			<li><a href="//blog.evernote.com/" class="click_tracking"
+				data-label="footer" data-action="expanded_blog">Blog</a></li>
+		</ul>
+		<div class="row">
+			<ul class="second-nav">
+				<li><a href="/corp/">About</a></li>
+				<li><a href="/careers/">Careers</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/legal/tos.php">Terms</a></li>
+				<li><a href="/legal/privacy.php">Privacy</a></li>
+				<li><a href="/security/">Security</a></li>
+				<li><a href="https://dev.evernote.com/" class="exit_tracking"
+					data-label="API Footer">API</a></li>
+				<li><a href="/contact/">Contact</a></li>
+			</ul>
 
-						<h3>Company</h3>
-						<li><a href="${pageContext.request.contextPath}/aboutUs">About
-								Us</a></li>
-						<li><a href="${pageContext.request.contextPath}/library">Library</a></li>
-						<li><a href="${pageContext.request.contextPath}/sitemap/">Sitemap</a>
-							<!--<a href="/api/intro.php">API</a>-->
-					</ul>
-				</div>
-				<div class="col-lg-4  col-md-4 col-sm-4 col-xs-6">
-					<ul>
-						<h3>Support</h3>
-						<li><a href="${pageContext.request.contextPath}/contactUs">Contact
-								Us</a></li>
-						<li><a href="${pageContext.request.contextPath}/faq">FAQ</a></li>
-						<li><a href="${pageContext.request.contextPath}/feedback">Feedback</a></li>
-					</ul>
-				</div>
 
-
-				<div class="col-lg-4  col-md-4 col-sm-4 col-xs-6">
-					<ul>
-
-						<h3>Legal</h3>
-						<li><a href="${pageContext.request.contextPath}/policy" >Privacy
-								Policy</a></li>
-						<li><a href="${pageContext.request.contextPath}/policy" >Copy
-								Rights Policy</a></li>
-
-						<li><a href="${pageContext.request.contextPath}/policy" >Term
-								of Use</a></li>
-					</ul>
-				</div>
-			</div>
 		</div>
-		<!--/.row-->
-	</div>
-	<!--/.container-->
-	<!--/.footer-->
-
-	<div class="footer-bottom">
-		<div class="container">
-			<p class="pull-left">Copyright © StudyDoer 2015. All right
-				reserved.</p>
-			<div class="pull-right">
-				<ul class="nav nav-pills payments">
-					<li><span id="siteseal"><script type="text/javascript"
-								src="https://seal.godaddy.com/getSeal?sealID=PYmsbMwZnQZPaOqG5wA62gTZPpHz3pjeaHnekKarPjIuZB0IN9vVzCVfoMJ8"></script></span>
-					</li>
-				</ul>
+		<div class="row bottom-section">
+			<div class="copyright">
+				Copyright 2015 StudyDoer Corporation. <span class="all-rights">All
+					rights reserved.</span>
 			</div>
+			
 		</div>
-	</div>
-	<!--/.footer-bottom-->
+	</nav>
 </footer>
+
 
 </body>
 </html>
-
-

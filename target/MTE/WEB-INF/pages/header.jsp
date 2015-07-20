@@ -14,7 +14,7 @@
 
 
 
-<title>Study Doer | Home</title>
+<title>WME | Home</title>
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 <!--Angular script for UI/DO Rendering-->
@@ -74,6 +74,10 @@
 <!-- Responsive CSS Styles  -->
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/resources/css/responsive.css"
+	media="screen">
+
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/resources/css/mte.css"
 	media="screen">
 
 <!-- Css3 Transitions Styles  -->
@@ -139,7 +143,7 @@
 				<a class="navbar-toggle"> <span class="sr-only">Toggle
 						navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</a> 	<a class="logo" href="${pageContext.request.contextPath}/">StudyDoer</a>
+				</a> 	<a class="logo" href="${pageContext.request.contextPath}/">WME</a>
 
 
 
@@ -147,10 +151,7 @@
 			<div id="slidemenu">
 				<ul class="nav navbar-nav navbar-right">
 
-					<li><a href="${pageContext.request.contextPath}/library"
-						id="#res">Library</a></li>
-					<li><a href="${pageContext.request.contextPath}/doc/upload">Earn
-							Money</a></li>
+				
 
 						<li ><a
 							href="${pageContext.request.contextPath}/user/login"> Login</a></li>
